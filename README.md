@@ -11,8 +11,8 @@ Ikuti langkah-langkah berikut untuk menginisialisasi proyek:
    Jika kamu belum meng-clone repository, gunakan perintah berikut:
 
    ```bash
-   git clone <URL_REPOSITORY>
-   cd <NAMA_FOLDER_PROJECT>
+   git clone https://github.com/FaisalABR/quiz-app-dot.git
+   cd quiz-app-dot
    ```
 
 2. **Install Dependencies**
