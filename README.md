@@ -1,8 +1,46 @@
-# React + Vite
+# Quiz App Dot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quiz App Dot adalah proyek React yang diinisialisasi menggunakan Vite. Proyek ini dibuat bertujuan untuk salah satu alur rekruitmen magang yang dilakukan di Dot Indonesia.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ikuti langkah-langkah berikut untuk menginisialisasi proyek:
+
+1. **Clone Repository**
+
+   Jika kamu belum meng-clone repository, gunakan perintah berikut:
+
+   ```bash
+   git clone <URL_REPOSITORY>
+   cd <NAMA_FOLDER_PROJECT>
+   ```
+
+2. **Install Dependencies**
+
+   Install semua dependencies yang diperlukan dengan perintah berikut:
+
+   ```bash
+   npm install
+   ```
+
+3. **Setup Environment Variable Firebase**
+   Atur enviroment variable firebase kamu pada file .env :
+
+   ```bash
+   VITE_API_KEY=your_api_key
+   ```
+
+4. **Run Development Server**
+
+   Untuk menjalankan server pengembangan, gunakan perintah berikut:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Run Jsonplaceholder Server**
+   Untuk menjalankan server jsonplaceholder, gunakan perintah berikut:
+
+   ```bash
+   npx json-server db.json
+   ```
